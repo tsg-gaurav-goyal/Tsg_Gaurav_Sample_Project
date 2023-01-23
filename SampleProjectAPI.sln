@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProjectAPI", "SampleProjectAPI.csproj", "{9DBDF05E-69CF-4579-8F2C-3907DB022DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProjectAPI", "SampleProjectAPI.csproj", "{9DBDF05E-69CF-4579-8F2C-3907DB022DA7}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "tsg_gaurav_sample_DB", "..\tsg_gaurav_sample_DB\tsg_gaurav_sample_DB.sqlproj", "{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{9DBDF05E-69CF-4579-8F2C-3907DB022DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DBDF05E-69CF-4579-8F2C-3907DB022DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DBDF05E-69CF-4579-8F2C-3907DB022DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AA9E85-1DD1-4138-8FFB-0EDE0DA604D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

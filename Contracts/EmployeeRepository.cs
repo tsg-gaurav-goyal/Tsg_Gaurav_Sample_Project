@@ -48,8 +48,7 @@ namespace SampleProjectAPI.Contracts
             try
             {
                 if (list != null) {
-                    Console.WriteLine("debugging the length"+list.Count);
-                    for (int i = 0; i < list.Count - 1; i++)
+                    for (int i = 1; i < list.Count - 1; i++)
                     {
                         finalIds += "'" + list[i] + "',";
                     }
